@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: courier;
+  color: black;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: blue;
+  z-index: 1;
+  border-bottom: 1px solid red;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+.a1 {
+  font-size: 23px;
+  cursor: pointer;
+}
+.a1:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+.a2 {
+  font-size: 23px;
+  cursor: pointer;
+}
+.a2:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.a3 {
+  font-size: 23px;
+  cursor: pointer;
+}
+.a3:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.ul-footer {
+  margin: 1;
+  padding: 0;
+  font-family: comic sans MS;
+}
+
+.panel1 {
+  margin-right: 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: brown;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+  padding: 50px;
+  display: none;
+}
+
+.panel2 {
+  margin-right: 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: olive;
+  color: black;
+  border: solid 1px #666;
+  border-radius: 3px;
+  padding: 50px;
+  display: none;
+}
+
+.panel3 {
+  margin-right: 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: darkcyan;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+  padding: 50px;
+  display: none;
+}
